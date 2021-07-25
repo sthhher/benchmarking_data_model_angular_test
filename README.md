@@ -1,6 +1,6 @@
 # Proof of concept using Formly JSON Schema along with Benchmarking Data Model 2.0
 
-This proof of concept dynamically loads the different benchmarking data model schemas, in order to play with [Angular Formly](https://formly.dev/). As these JSON Schemas heavily use [`$ref`](https://json-schema.org/understanding-json-schema/structuring.html#ref), and Formly JSON Schema does not support complex mappings of URIs to external JSON Schemas, this proof of concept also uses [json-schema-ref-parser](https://www.npmjs.com/package/json-schema-ref-parser).
+This proof of concept dynamically loads the different benchmarking data model [2.0 schemas](https://github.com/inab/benchmarking-data-model/tree/2.0.x), in order to play with [Angular Formly](https://formly.dev/). As these JSON Schemas heavily use [`$ref`](https://json-schema.org/understanding-json-schema/structuring.html#ref), and Formly JSON Schema does not support complex mappings of URIs to external JSON Schemas, this proof of concept also uses [json-schema-ref-parser](https://www.npmjs.com/package/json-schema-ref-parser).
 
 Fragments from this code are inspired in several examples spread over internet.
 
